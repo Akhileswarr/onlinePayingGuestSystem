@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Update state </title>
+        <link rel="stylesheet" href="newcss.css" >
+      
+    </head>
+    <body > 
+        <button onclick="myFunction()">Try it</button>
+        <div id="myDIV">
+        <center> 
+            <form class="inside-box">
+            <tr>
+                <br>
+            <h2 >UPDATE STATE</h2>
+            <label for="state">State: </label>
+            <td><input type="text"required> </td>
+        </tr>
+        <br><br>
+        <tr>
+            <td><input type="submit" value ="Update" ></td>
+        </tr>
+        <br>
+        <br>
+        
+        </form></center>
+    </div>
+</div>
+    </body>
+</html>
+<style>
+   
+.inside-box
+{
+    margin-top: 150px;
+    background-color:rgb(49, 160, 194);
+    width: 700px;
+    height: 200px;
+    text-align: center;
+}
+</style>
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myDIV");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+   
+    </script>
+    
