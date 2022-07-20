@@ -105,10 +105,12 @@
 a:hover:after{
   width: 100%;
 }
-body{
-  background-image: url('../intro/valeriia-bugaiova-_pPHgeHz1uk-unsplash.jpg');
-  background-repeat: no-repeat;
+
+.background{
+  height: 600px;
+  width: 100%;
+ 
   background-attachment: fixed;
-  background-size: 100% 100%;
+ 
   margin: 0;
 }
